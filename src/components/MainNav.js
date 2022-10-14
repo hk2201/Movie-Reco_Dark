@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     bottom: 0,
     backgroundColor: "#2d313a",
     zIndex: 100,
+    padding: 2,
   },
 });
 
@@ -47,22 +48,23 @@ export default function SimpleBottomNavigation() {
       <BottomNavigationAction
         style={{ color: "white" }}
         label="Trending"
-        icon={<WhatshotIcon />}
+        
+        icon={<WhatshotIcon fontSize="large"/>}
       />
       <BottomNavigationAction
         style={{ color: "white" }}
         label="Movies"
-        icon={<MovieIcon />}
+        icon={<MovieIcon fontSize="large" />}
       />
       <BottomNavigationAction
         style={{ color: "white" }}
         label="TV Series"
-        icon={<TvIcon />}
+        icon={<TvIcon fontSize="large"/>}
       />
       <BottomNavigationAction
         style={{ color: "white" }}
         label="Search"
-        icon={<SearchIcon />}
+        icon={<SearchIcon fontSize="large" />}
       />
     </BottomNavigation>
   );

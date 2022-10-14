@@ -1,6 +1,6 @@
-import { Chip } from "@material-ui/core";
+import React, { useEffect } from 'react'
 import axios from "axios";
-import { useEffect } from "react";
+import { Chip } from '@material-ui/core';
 
 const Genres = ({
   selectedGenres,
@@ -10,6 +10,7 @@ const Genres = ({
   type,
   setPage,
 }) => {
+
   const handleAdd = (genre) => {
     setSelectedGenres([...selectedGenres, genre]);
     setGenres(genres.filter((g) => g.id !== genre.id));
@@ -37,8 +38,10 @@ const Genres = ({
     return () => {
       setGenres({}); // unmounting
     };
-    // eslint-disable-next-line
+
   }, []);
+
+
 
   return (
     <div style={{ padding: "6px 0" }}>
@@ -49,7 +52,7 @@ const Genres = ({
           key={genre.id}
           color="primary"
           clickable
-          size="small"
+          size="large"
           onDelete={() => handleRemove(genre)}
         />
       ))}
@@ -59,12 +62,12 @@ const Genres = ({
           label={genre.name}
           key={genre.id}
           clickable
-          size="small"
+          size="large"
           onClick={() => handleAdd(genre)}
         />
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default Genres;
+export default Genres

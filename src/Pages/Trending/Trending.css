@@ -1,5 +1,6 @@
-.trending {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }

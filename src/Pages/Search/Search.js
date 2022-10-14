@@ -59,6 +59,7 @@ const Search = () => {
 
   return (
     <div>
+      <hr />
     <ThemeProvider theme={darkTheme}>
       <div className="search">
         <TextField

@@ -22,6 +22,7 @@ const Trending = () => {
 
   return (
     <div>
+      <hr />
       <span className="pageTitle">Trending</span>
       <div className="trending">
         {content &&

@@ -31,6 +31,7 @@ const Series = () => {
 
   return (
     <div>
+      <hr />
         <span className='pageTitle'>Discover Series</span>
         <Genres 
         type="tv"

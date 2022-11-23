@@ -31,7 +31,7 @@ const Movies = () => {
 
   return (
     <div>
-      <hr />
+      {/* <hr /> */}
         <span className='pageTitle'>Discover Movies</span>
         <Genres 
         type="movie"

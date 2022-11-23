@@ -15,7 +15,21 @@
     box-shadow: 0px 1px 5px black;
     color: #e90418;
     z-index: 100;
+    
 }
+
+.header::after{
+    background-color: #E9DAC1; 
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 91%;
+}
+
+
 
 @media (max-width: 1000px) {
     .header{

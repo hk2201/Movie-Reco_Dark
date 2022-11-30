@@ -46,3 +46,23 @@
     position:absolute;
     right: 35px;
 }
+
+.sizer{
+    font-size: 1vw;
+    padding-top: 2px;
+    color : white
+}
+
+@media (max-width: 1000px) {
+    .toggle{
+        padding-top: 8px;
+        gap: 218px
+        
+    }
+    .sizer{
+        font-size: 10px;
+        padding-top: 5.5px;
+        
+    }
+    
+}

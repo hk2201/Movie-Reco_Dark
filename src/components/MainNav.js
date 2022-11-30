@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SimpleBottomNavigation() {
+export default function SimpleBottomNavigation(props) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
   const history = useHistory();
@@ -44,6 +44,7 @@ export default function SimpleBottomNavigation() {
       }}
       showLabels
       className={classes.root}
+      style={{backgroundColor : props.darkmode ? "black" : "grey"}}
     >
       <BottomNavigationAction
         style={{ color: "white" }}

@@ -38,3 +38,11 @@
     }
     
 }
+
+.toggle{
+    display: flex;
+    gap : 10px;
+    padding-top: 35px;
+    position:absolute;
+    right: 35px;
+}

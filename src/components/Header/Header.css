@@ -15,6 +15,8 @@
     box-shadow: 0px 1px 5px black;
     color: #e90418;
     z-index: 100;
+    /* opacity: 1; */
+    /* background: linear-gradient(to bottom, grey, rgba(255, 122, 89,0)); */
     
 }
 

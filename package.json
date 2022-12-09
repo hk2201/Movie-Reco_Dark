@@ -17,10 +17,12 @@
     "material-ui-backdrop-component": "^1.0.7",
     "react": "^17.0.1",
     "react-alice-carousel": "^2.6.6",
+    "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^17.0.1",
     "react-js-switch": "^1.1.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-toggle-dark-mode": "^1.1.1",
     "styled-components": "^5.3.6",
     "web-vitals": "^0.2.4"
   },

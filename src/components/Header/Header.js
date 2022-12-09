@@ -7,7 +7,10 @@ const Header = (props) => {
 
 
   const dMode = {
-    backgroundColor: props.darkmode ? "black" : "grey"
+    backgroundColor: props.darkmode ? "black" : "grey",
+    background: props.darkmode ? "linear-gradient(to bottom, grey, rgba(255, 122, 89,0))" : 
+    "linear-gradient(to bottom, black, rgba(255, 122, 89,0))"
+    // background: lineargradient(bottom)
   }
 
   return (
